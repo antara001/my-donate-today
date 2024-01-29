@@ -1,73 +1,127 @@
 *{
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
-.banner{
-    padding: 150px 300px 150px 300px;
-}
-.header{
-    background: #FFF8F3;
+
+.first-page{
+    
+    
+   
+    
+   text-align: center;
+    margin: 0px;
+   
     background-image: url(../images/Rectangle\ 237.png);
     background-repeat: no-repeat;
-  background-position: center;
-   padding:0px;
-   width: 1440px;
-   height: 669px;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 174px 300px;
+    
 }
-
 .banner-title{
-    font-weight: 700px;
-    font-size: 65px;
-    color:#FFF8F3;
+    color: #FFF8F3;
     text-align: center;
-    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom:0;
+   padding-top: 100px;
+
+
+
+   
+   
 }
 .banner-description{
-    color:#FFF8F3;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 20px;
     text-align: center;
-    padding-bottom: 25px;
-
-}
-.btn-primary{
-    color: aliceblue;
-    font-size: 20px;
-    font-weight: 600;
-    border: 0px;
-    padding: 10px 20px;
-    height: 50px;
-    border-radius: 5px;
-background: #FD6E0A;
+    color: #FFF8F3;
+font-size: 18px;
+margin-bottom:30px;
+    
 }
 .button{
+   
+    padding-bottom: 100px;
+}
+.btn-primary{
+   
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+background: #FF5959;
+
+width: 160px;
+padding: 16px 12px;
+
+
+border: 0;
+
+}
+
+
+/*edited
+
+.about{
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding:130px 150px;
     text-align: center;
 }
-.div1{
-    padding: 150px 300px 150px 300px;
+.section-title{
+text-align: center;
+font-weight: 700;
+font-size: 35px;
+margin-bottom:50px;
+}
+.section-description{
+color:#757575;
+font-size: 18px;
+margin-bottom:30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-size:20 ;
+    font-weight: 700;
+    color:#474747;
+}*/
+
+.second-page{
+    text-align: center;
+    margin: 0px;
+    padding: 174px 300px;
 }
 .sec-header{
     text-align: center;
-    font-size: 45px;
     font-weight: 700;
-    padding-bottom: 20px;
+    font-size: 35px;
+    margin-bottom:0;
+    padding-bottom: 15px;
 }
 .sec-description{
     text-align: center;
-    color: #707070;
-    font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 20px;
+    margin-bottom: 15px;
+
 }
-
-
 .tk-button{
-   text-align: center;
-   display: flex;
-   padding-left: 200px;
-   gap:24px;
-   padding-bottom: 20px;
+    margin: 0px 200px;
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-between;
+   
+    padding-bottom: 20px;
+ 
 }
+
 .tk-but-one{
     color: #707070;
     font-size: 20px;
@@ -106,5 +160,8 @@ background: #FD6E0A;
     text-align: center;
     color: #B3B3B3;
     border: 0;
+}
+.button-two{
+    margin-top: 15px;
 }
 
